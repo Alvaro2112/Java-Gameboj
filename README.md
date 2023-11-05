@@ -1,23 +1,22 @@
-# Gameboj
+# Gameboj Emulator Documentation
 
-This is a java Game Boy emulator that works on your computer using your keyboard, it can load any game (White & Black).
-The project has the necessary files to both run the Game Boy and test all of its components.
+Gameboj is a Java-based emulator for the original Game Boy console, enabling keyboard play of classic black and white Game Boy games on your computer. This project was developed as part of an Object-Oriented Programming course in Java at École Polytechnique Fédérale de Lausanne (EPFL). The repository includes all necessary files for operating the emulator and for extensive testing of its components.
 
-## Getting Started
+## Setup Instructions
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+Follow the below instructions to get the Gameboj emulator up and running on your local system for development or testing purposes. These instructions are specifically for the Eclipse IDE but they can be adapted to other environments.
 
-I run this Java code using Eclipse so I will assume you will too,
-
-1. First, you will have to clone the repository into your own machine.
-2. After that you will have to download any Game Boy game you wish to play, in .gb format.
-3. Afterwards, place the game at the same level as the src folder.
-4. Now simply go to /Gameboj/src/ch/epfl/gameboj/gui/Main.java , right click, go to "run as" and then "Run configurations". Once this is done go to arguments in the 
-menu box, to the right of main and insert the exact file name of your game, click apply and you are good to go, a screen with the game playing should appear.
+1. Clone the repository to your local machine.
+2. Acquire a .gb Game Boy game file that you wish to play.
+3. Place the game file in the directory at the same level as the 'src' folder.
+4. Open `/Gameboj/src/ch/epfl/gameboj/gui/Main.java`, right-click, select "Run As" followed by "Run Configurations". In the configuration menu, navigate to the "Arguments" tab, input the exact name of your game file, apply the changes, and start the program. A window displaying the game should appear.
 
 ### Prerequisites
 
-Java
+- Java Development Kit (JDK)
+- Eclipse IDE
 
-Eclipse
+## Authors
 
+- **Alvaro Caudéran**
+- **Gauthier Boeshertz**
